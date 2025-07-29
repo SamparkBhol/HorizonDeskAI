@@ -4,9 +4,14 @@
 
 HorizonDesk.AI is a frontend-only AI-enhanced developer platform designed for professional developers and small teams. It provides tools for managing dev workflows, generating code snippets, simulating scripts, and building low-code applications. The platform features a modern glassmorphism UI with terminal-inspired elements and an interactive AI assistant named Nova.
 
-## User Preferences
-
-Preferred communication style: Simple, everyday language.
+## snapshots
+<img width="965" height="798" alt="image" src="https://github.com/user-attachments/assets/92c878d8-6008-4172-b731-2266f45e12f1" />
+<img width="1836" height="946" alt="image" src="https://github.com/user-attachments/assets/fec0ac88-7c7e-4a88-ad9b-b05dbd3958ce" />
+<img width="1820" height="873" alt="image" src="https://github.com/user-attachments/assets/ce9732ef-9a92-473d-800a-1fa0899f8c83" />
+<img width="1751" height="867" alt="image" src="https://github.com/user-attachments/assets/b2e9394e-49a4-46a1-a521-17edc7fbcc31" />
+<img width="1733" height="767" alt="image" src="https://github.com/user-attachments/assets/f518d08e-803d-472a-8e63-54cb88237b21" />
+<img width="1712" height="823" alt="image" src="https://github.com/user-attachments/assets/da3ed719-6e42-4a8b-b3ba-958f86dc13f3" />
+<img width="1767" height="856" alt="image" src="https://github.com/user-attachments/assets/87e86e19-0c69-48ab-aa20-6d5fffbe90c1" />
 
 ## System Architecture
 
