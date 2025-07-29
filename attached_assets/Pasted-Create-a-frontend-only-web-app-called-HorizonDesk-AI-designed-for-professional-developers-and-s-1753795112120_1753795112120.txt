@@ -1,0 +1,95 @@
+Create a frontend-only web app called **HorizonDesk.AI**, designed for professional developers and small teams to manage, generate, and automate dev workflows — enhanced with AI.
+
+### General Features
+- AI-enhanced dev platform like Hostinger Horizon, Raycast, and Copilot CLI
+- 100% frontend-only (runs on Vercel, Netlify, Hostinger)
+- Interactive terminal-inspired UI — **not hacker-themed**; use modern minimal design (glassmorphism, soft gradients, ambient lighting)
+- Include animated **AR/VR-inspired loading screen** (3D-like glowing matrix with smooth loading transitions)
+
+### Core Functional Modules
+1. **AI Dev Console**
+   - Styled like a modern dev assistant
+   - Accepts natural prompts:
+     - "Create Dockerfile for Next.js + NGINX"
+     - "Generate GitHub Action to deploy Node app"
+   - Output readable, editable files (terminal-style preview)
+   - Powered by local prompt-to-code logic (hardcoded AI behavior or optional transformers.js if needed)
+
+2. **Smart File + Snippet Manager**
+   - Store, tag, and categorize code snippets, configs, and scripts
+   - Allow searching and exporting of configs (e.g., `.env`, `vite.config.js`)
+   - No backend — use IndexedDB or localStorage
+
+3. **Script Simulator**
+   - Fake terminal-style script runner (simulate `npm run`, `docker build`, etc.)
+   - Show real-time logs, animations, and stylized outputs
+   - Simulate log outputs with animations
+
+4. **Encrypted Secret Vault**
+   - Use Web Crypto API to store API keys, secrets, or `.env` content securely
+   - Optional export/share link (encoded, encrypted blob)
+   - UI similar to password manager but themed to match the app
+
+5. **Low-Code App Builder Panel**
+   - Prebuilt templates:
+     - Todo app
+     - Portfolio site
+     - Balance tracker
+     - FastReminder app
+     - React component manager (like small design system)
+   - Each includes:
+     - Live editable code preview (HTML/CSS/JS/React)
+     - One-click export to zip
+     - AI suggestions for improvements and styling
+
+6. **Interactive Helper Bot**
+   - Always-on floating assistant named **Nova**
+   - Stylized bubble/chat bubble UI (bottom right)
+   - Hardcoded prompt responses (no real-time AI needed)
+     - Example prompts:
+       - "Help me scaffold a project"
+       - "Show me build commands"
+       - "Explain how to secure an API key"
+   - Nova responds with contextual cards and links to relevant sections
+   - Use animation, smooth UI transitions, and a helpful tone
+
+7. **Workspace Export/Import**
+   - Allow full export/import of project workspace:
+     - Snippets
+     - Templates
+     - AI commands
+     - Scripts
+     - Configs
+   - Export as `.horizon.json` or `.zip`
+
+8. **Team Sync Mode (Optional Toggle)**
+   - Optional collaborative sync mode using Yjs or Automerge
+   - Enable shared editing of scripts/snippets/configs via P2P
+   - Store changes locally; sync when peers connect
+
+### UI/UX Design Guide
+- Avoid hacker/cyberpunk/retro styles
+- Use smooth, modern UX:
+  - Soft glassy cards
+  - Smooth panel transitions
+  - Ambient shadows
+  - Modern fonts (e.g., Inter, Sora)
+- Loading screen should feel immersive:
+  - AR/VR inspired loading animation (floating cubes, grid pulses, glowing elements)
+- Responsive layout with dockable panels
+
+### Technologies (Frontend-Only)
+- Framework: React or Svelte
+- Terminal UI: `xterm.js` or custom animated shell
+- Storage: IndexedDB (via Dexie.js), localStorage
+- File export: JSZip
+- Encryption: WebCrypto API
+- AI: Prompt-based logic (no server); optional Transformers.js
+- Sync: Yjs (P2P only if enabled)
+
+### Final Notes
+- The app must be fully deployable as a static site
+- Avoid any Node.js or backend usage
+- Prioritize modular design for future expansion
+- Ensure Nova, the helper bot, is extensible with more hardcoded prompts later
+
