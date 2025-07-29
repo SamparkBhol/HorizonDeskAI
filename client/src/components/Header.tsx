@@ -13,6 +13,7 @@ const tabs = [
   { id: 'simulator' as TabType, label: 'Simulator', icon: '💻' },
   { id: 'vault' as TabType, label: 'Vault', icon: '🔒' },
   { id: 'builder' as TabType, label: 'Builder', icon: '🏗️' },
+  { id: 'settings' as TabType, label: 'Settings', icon: '⚙️' },
 ];
 
 export default function Header({ activeTab, onTabChange }: HeaderProps) {
